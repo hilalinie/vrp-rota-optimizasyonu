@@ -63,5 +63,3 @@ Veri dosyasını (`VRP.csv`) aynı klasöre koy.
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 
 ---
-
-*Endüstri Mühendisliği — Staj Hazırlık Projesi*
