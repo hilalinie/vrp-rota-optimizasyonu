@@ -6,8 +6,8 @@ Kaggle VRP dataset (4.550 örnek) ile optimal rota tahmini | Nearest Neighbor + 
 
 Kaggle **Vehicle Routing Problem GA Dataset** (4,550 VRP örneği) kullanılarak iki paralel analiz gerçekleştirilmiştir:
 
-1. **Tahmin Modeli** — Problem özelliklerinden (müşteri sayısı, mesafe, kapasite) optimal çözüm değerini tahmin eden ML modeli
-2. **VRP Simülasyonu** — Nearest Neighbor heuristik + 2-opt lokal arama ile rota optimizasyonu ve Gantt chart görselleştirmesi
+1. **Tahmin Modeli** : Problem özelliklerinden (müşteri sayısı, mesafe, kapasite) optimal çözüm değerini tahmin eden ML modeli
+2. **VRP Simülasyonu** : Nearest Neighbor heuristik + 2-opt lokal arama ile rota optimizasyonu ve Gantt chart görselleştirmesi
 
 ## Veri Seti
 
@@ -35,17 +35,17 @@ Kaggle **Vehicle Routing Problem GA Dataset** (4,550 VRP örneği) kullanılarak
 
 ## En Önemli Özellikler
 
-1. **Müşteri Sayısı** — En belirleyici faktör
-2. **Ortalama Depo Mesafesi** — Rota uzunluğunu doğrudan etkiler
-3. **Tahmini Araç Sayısı** — Kapasite kullanım verimliliği
+1. **Müşteri Sayısı** : En belirleyici faktör
+2. **Ortalama Depo Mesafesi** : Rota uzunluğunu doğrudan etkiler
+3. **Tahmini Araç Sayısı** : Kapasite kullanım verimliliği
 
 ## Kullanılan Yöntemler
 
-- **Nearest Neighbor Heuristik** — Başlangıç çözümü
-- **2-opt Lokal Arama** — Rota iyileştirmesi
-- **Random Forest Regressor** — Çözüm kalitesi tahmini
-- **Özellik Mühendisliği** — Kapasite kullanımı, müşteri başı mesafe, araç sayısı tahmini
-- **Gantt Chart** — Araç çizelgeleme görselleştirmesi
+- **Nearest Neighbor Heuristik** : Başlangıç çözümü
+- **2-opt Lokal Arama** : Rota iyileştirmesi
+- **Random Forest Regressor** : Çözüm kalitesi tahmini
+- **Özellik Mühendisliği** : Kapasite kullanımı, müşteri başı mesafe, araç sayısı tahmini
+- **Gantt Chart** : Araç çizelgeleme görselleştirmesi
 
 ## Kurulum & Çalıştırma
 
